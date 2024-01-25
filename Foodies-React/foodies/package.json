@@ -1,0 +1,24 @@
+{
+  "name": "foodies_delicious",
+  "version": "1.0.0",
+  "description": "food delivery website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubhansh0311/Foodies.git"
+  },
+  "author": "iam_shubhansh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubhansh0311/Foodies/issues"
+  },
+  "homepage": "https://github.com/Shubhansh0311/Foodies#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.9.0"
+  }
+}

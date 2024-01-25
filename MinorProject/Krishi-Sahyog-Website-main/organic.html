@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Agrimp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon_agrimp_16x16-986d6d73f9ab89558b7379fa749eb28229b23db4aeec5f861a6af1aa356f4d48.png" sizes="16x16" />
+    <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon_agrimp_32x32-89dc80b426326123d70e22d6bcc0e8aa005a40a9639a212348f014e03b325b4b.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon_agrimp_96x96-a883d9f52c549a527bc9c464e9eaa0ea8ad978cbb60c5af0d9b463997de71148.png" sizes="96x96" />
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hT47cdcfWZty9ywkXvAMW2fnJsnjWRF/X/ovwOdLtbfZZwxyLlHDSDQZALb0XUA+N1M+fW9Ezdlef82YLtGrtA==" />
+    <!-- Facebook Open Graph data -->
+<meta property="og:title" content="Agri Marketplace - Fairtrade made easy" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://agrimp.com" />
+<meta property="og:image" content="https://agrimp-prod.s3.amazonaws.com/public/AgriMP_Social_Banner.png" />
+<meta property="og:description" content="A b2b digital marketplace where fair food trade is made easy, fast and transparent!"
+<meta property="og:site_name" content="Agri Marketplace - Fairtrade made easy" />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AgriMarketplace">
+<meta name="twitter:title" content="Agri Marketplace - Fairtrade made easy">
+<meta name="twitter:description" content="A b2b digital marketplace where fair food trade is made easy, fast and transparent!"
+<meta name="twitter:creator" content="@AgriMarketplace">
+<meta name="twitter:image:src" content="https://agrimp-prod.s3.amazonaws.com/public/AgriMP_Social_Banner.png">
+
+
+    <link rel="stylesheet" media="all" href="/assets/application-47b389be11b663b10bb2b92a398a55052ceb26b9e71ec91737a8ae74098372fe.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-66210119be3cc9e5d06b1bda02166a92b4cb1572faf17b095f0eee2c40e9261b.js" data-turbolinks-track="reload"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+      <script src="https://www.googletagmanager.com/gtag/js?id=UA-107910564-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-107910564-1' );
+        </script>
+      <!-- Google Tag Manager -->
+      <script>
+          (function (w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({
+                  'gtm.start':
+                      new Date().getTime(), event: 'gtm.js'
+              });
+              var f = d.getElementsByTagName(s)[0],
+                  j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true;
+              j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-PTXT9LJ');
+      </script>
+      <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTXT9LJ"
+              height="0" width="0" style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar-expand-md navbar-static-top">
+  <div class="header-navbar-top">
+    <div class="container">
+      <div class="float-left">
+        <img class="icn-globe" src="/assets/icons/globe-47d707b2f869a5a1a6d0c94da47878f26c948ed8cdbe2130f6b3add0bd906c60.png" alt="Globe" />
+        <div class="dropdown heaver-navbar-top__language">
+          <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Language (EN)
+            <img src="/assets/icons/white_arrow_down-cffad3bb8a73dc18648ac6ae872d320f49286fd0622d9be28dd45ef0cd628bfc.png" alt="White arrow down" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/en/commodities">
+              <img width="20" alt="GB" src="/assets/country-4x3/gb-35fdfc7082940f7268a27b2c8a2a4e3861cb88a780b3341419180cb2856aadf2.svg" />
+              English (EN)
+            </a>
+            <a class="dropdown-item" href="/pt/commodities">
+              <img width="20" alt="#{locale}" src="/assets/country-4x3/pt-d8f246ae139c60bade9fbe1047ce9c5e668be01c3b6d445fc87fbd0a328d2760.svg" />
+              Portuguese (PT)
+            </a>
+            <a class="dropdown-item" href="/es/commodities">
+              <img width="20" alt="#{locale}" src="/assets/country-4x3/es-4c2d01e3cfe896cbcaa0edaf59cb79eacf48f7bd1b463c2ba667cff864479a60.svg" />
+              Spanish (ES)
+            </a>
+            <a class="dropdown-item" href="/fr/commodities">
+              <img width="20" alt="#{locale}" src="/assets/country-4x3/fr-9dc10f74431a42978154d1f4e5709d5713eb3010e3dab1b4355def41f5cb2f40.svg" />
+              French (FR)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="float-right text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <div class="navbar-collapse collapse" id="exCollapsingNavbar2">
+          <ul class="nav navbar-nav">
+            <li class="nav-item mr-2">
+              <img class="icn-user" src="/assets/icons/user-48c5c2f8756233793d71750da1ec6ca1d0463c3b961c59faf0e02306b85a63ee.png" alt="User" />
+              <a href="/users/sign_in">Login</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="btn btn-solid btn-sm mt-1" style="width: 100px" href="/users/sign_up">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-navbar-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 img-logo-div p-0">
+          <a href="/"><img class="img-logo" src="/assets/icons/agrimp-color-96993599fe22f60c70ba2151ca8ecc468e64db6da1ce5938aed791dc9b7530ef.png" alt="Agrimp color" /></a>
+        </div>
+        <div class="col-sm-12 col-md-8 navbar-items-div p-0">
+          <ul class="nav navbar-nav float-sm-right flex-row">
+            <li class="nav-item"><a class="nav-link" id="/" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" id="/commodities" href="/commodities">Market</a></li>
+            <li class="nav-item"><a class="nav-link" id="/tools" href="/tools">Crop Converter</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle">About us</a>
+              <ul class="dropdown-menu about-us">
+                <li class="dropdown-item"><a class="dropdown-item" id="/our-company" href="/our-company">Our company</a></li>
+                <li class="dropdown-item"><a class="dropdown-item" id="/about-us" href="/about-us">Our people</a></li>
+                <li class="dropdown-item"><a class="dropdown-item" id="/faq" href="/faq"><span class="translation_missing" title="translation missing: en.layouts.header.FAQ">Faq</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <div id="product-family__div" class="container-commodity">
+  <div class="container">
+    <h2 class="commodity__title white">Select a product to buy/sell</h2>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+            <button id="button_1"
+            type="button"
+            class="family__button"
+            onClick="familyButtonClick([1, 2, 3, 5], '1')">
+              <img class="family__white-circle" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/786d4fafae0d05be446f8777d717dcc7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0e0a8a7422549bd1b09f0614ac48f8ec103cd3660fb5afd6824b7263cf4c5a93" alt="786d4fafae0d05be446f8777d717dcc7" />
+              Grains
+          </button>
+
+
+            <button id="button_2"
+            type="button"
+            class="family__button"
+            onClick="familyButtonClick([1, 2, 3, 5], '2')">
+              <img class="family__white-circle" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/3381c880c95e5690ddb81c7b8d12eae4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=630a7637238f829f4b832ce21aa95ffdcef13f842570e86f7e0de7fd063c9de2" alt="3381c880c95e5690ddb81c7b8d12eae4" />
+              Nuts
+          </button>
+
+
+            <button id="button_3"
+            type="button"
+            class="family__button"
+            onClick="familyButtonClick([1, 2, 3, 5], '3')">
+              <img class="family__white-circle" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/d48f6971502cf70138d938cd80cbea9a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=4a6a3b640438a1064d683a178a8645f16ee472c4d32740cdcaab79f9115af986" alt="D48f6971502cf70138d938cd80cbea9a" />
+              Green Coffee
+          </button>
+
+
+            <button id="button_5"
+            type="button"
+            class="family__button"
+            onClick="familyButtonClick([1, 2, 3, 5], '5')">
+              <img class="family__white-circle" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/b06c0c8d2abf53da897c36716ebaccf6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=afc9344f29cc31907df9ac4a9c7939a09e5ff2af9988646fd2501fb2726d3fa7" alt="B06c0c8d2abf53da897c36716ebaccf6" />
+              Olive Oil
+          </button>
+
+      </div>
+    </div>
+
+		<hr class="hr_separator">
+
+				<div id="product_1" class="d-none">
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/1/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/1bff36c19728eb694011bf6a5ace32a5.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=72f48fa2cd8bdc4294a8d992cd8dc44967ee796152e80f8ff9575e5f849a7ba6" alt="1bff36c19728eb694011bf6a5ace32a5" />
+									<p class="product__text__services">Rice</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/2/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/03e5cf4ab4e6340d226addc195e12bd4.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e7368e992e0ed6e1d5004cebd25e5be63373c6a6323e18dd70a0461de1a73891" alt="03e5cf4ab4e6340d226addc195e12bd4" />
+									<p class="product__text__services">Corn</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/4/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/2591fa81cf29ff7bd588c662fd620b1e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=117696ca5bfffcec1130b5ea3ec5c3a2fc409f21d747a093a2c4be93faf57234" alt="2591fa81cf29ff7bd588c662fd620b1e" />
+									<p class="product__text__services">Wheat</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/5/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/8f76dcc85e5b3391b78cf5b8d1b6eaa2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e209f64034a2d3884c6b0ac54276eed6b0b11d896376819610c318b0601328a3" alt="8f76dcc85e5b3391b78cf5b8d1b6eaa2" />
+									<p class="product__text__services">Barley</p>
+</a>							</div>
+						</div>
+			</div>
+				<div id="product_2" class="d-none">
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/7/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/90bc7532d5fc281124569e8c7bd43f97.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=aba07cb54b0253dc8c51b01e94939d4b1f43b2aff883be26680b8a72d96eba27" alt="90bc7532d5fc281124569e8c7bd43f97" />
+									<p class="product__text__services">Almond</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/8/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/7cfff81b5ebb9d119cf8fd5dd9167818.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f16dff20918f9eb953cece78d33698ee07bf417e13848fcf1a4f27cacd43f2da" alt="7cfff81b5ebb9d119cf8fd5dd9167818" />
+									<p class="product__text__services">Walnut</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/10/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/90ef699fb59216476de36a9775bfc241.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2f52a27c9eda225a98acb31fe9fded3ef447da588e00f63b8e4bd4955158f5ae" alt="90ef699fb59216476de36a9775bfc241" />
+									<p class="product__text__services">Pistachio</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/11/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/915fc1a8c3ec3ca36827b61a1ee3fc99.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0ec9d192ab6365ff791b9acdc4b75b539bd11303935b27465dfaa8e19a5b173d" alt="915fc1a8c3ec3ca36827b61a1ee3fc99" />
+									<p class="product__text__services">Hazelnut</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/13/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/d2663088252e544a8934d0aa7d4b25f7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=48790b14973a7f876242c4aa521d049c1e8d112b7afd3e682300638c816d5ab6" alt="D2663088252e544a8934d0aa7d4b25f7" />
+									<p class="product__text__services">Cashew</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/15/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/94e90abde9c4b9796f405ddbf09685c0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7a7b683f2856f3980e3f269f3ba164131d13cc30c14dab8cad11d3d3dbd1e05d" alt="94e90abde9c4b9796f405ddbf09685c0" />
+									<p class="product__text__services">Pine Nut</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/17/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/1582e7eb54ab2af78ab0666e53fb970e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e338ceec9232bc27c8ecf68bb335493a06b41571dadc2bc43b64b58f406dc298" alt="1582e7eb54ab2af78ab0666e53fb970e" />
+									<p class="product__text__services">Peanut</p>
+</a>							</div>
+						</div>
+			</div>
+				<div id="product_3" class="d-none">
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/12/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/76ba659c9b1b929e5b912b4d64741828.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=93b99a901a8a2d4852dfb6247a0fd0c2fd1140aa7a2c484326ae4d1bdbdcd250" alt="76ba659c9b1b929e5b912b4d64741828" />
+									<p class="product__text__services">Specialty Coffee</p>
+</a>							</div>
+						</div>
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/16/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/e395140250e47327a509b6b7eb26c654.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=43d9eb5dd58ed9180ea35013d969476402c159b1dfe97fdac81641482c1f23b8" alt="E395140250e47327a509b6b7eb26c654" />
+									<p class="product__text__services">Coffee</p>
+</a>							</div>
+						</div>
+			</div>
+				<div id="product_5" class="d-none">
+						<div class="col-md-2 p-3">
+							<div class="circle-white--big">
+								<a href="/products/14/filter">
+									<img class="product-img-big" src="https://agrimp-prod.s3.eu-central-1.amazonaws.com/store/f52b518514d2dfcf258e3be6d852668b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20230127%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230127T161850Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f86f40651b0da8176b135a8211afc2765b7b28e0d2059f7559e791514effe31e" alt="F52b518514d2dfcf258e3be6d852668b" />
+									<p class="product__text__services">Olive Oil</p>
+</a>							</div>
+						</div>
+			</div>
+  </div>
+  <div class="btn__container">
+    <div class="container-banner-talk-us-label commodity-text">Can&#39;t find the Product you are looking for?</div>
+    <button id="contactUs" class="btn btn-talk-to-us">Talk to us</button>
+  </div>
+</div>
+    </div>
+    <footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-2 footer-links">
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="https://agrimp.com/" target="_blank">Home</a></li>
+            <li><a href="https://agrimp.com/commodities" target="_blank">Market</a></li>
+            <li><a href="https://agrimp.com/tools" target="_blank">Crop Converter</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 footer-links">
+          <h4>About</h4>
+          <ul>
+            <li><a target="_blank" href="/our-company">Our Company</a></li>
+            <li><a target="_blank" href="/about-us">Our People</a></li>
+            <li><a target="_blank" href="/faq">FAQ&#39;s</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a target="_blank" href="/terms-conditions/agri-marketplace">Terms &amp; Conditions</a></li>
+            <li><a target="_blank" href="/privacy">Privacy Policy</a></li>
+            <li><a target="_blank" href="/cookies-policy">Cookies Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-6 col-lg-3 footer-contact footer-links">
+          <h4>Contact Us</h4>
+          <p>
+            <img src="/assets/icons/phone_icon-d27d3ccfa4eebf5fa5c7419e3def7d15f0e9f47d59de3179c02dd3d22048a98c.svg" alt="Phone icon" />
+            <a class="strong" href="callto:00351964300963">+351 964 300 963</a>
+            <br>
+            <img src="/assets/icons/mail_icon-4260a55e62b163f2a269cbac2b5f77089abcede1089547cc928bab6785c6902d.svg" alt="Mail icon" />
+            <a href="/cdn-cgi/l/email-protection#6b02050d042b0a0c1902061b45080406"> <span class="__cf_email__" data-cfemail="1970777f7659787e6b707469377a7674">[email&#160;protected]</span> </a>
+          </p>
+          <div class="mt-3">
+            <a href="https://www.facebook.com/agrimarketplace" target="_blank" class="facebook">
+              <img class="footer-image" src="/assets/icons/facebook-095327a666a198711f2d886aca1aa54bc94eab123b47eb21143ca6371903c101.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/agri_marketplace/" target="_blank">
+              <img class="footer-image" src="/assets/icons/instagram-9be5bfed286b4ddea96d55630886df1171ce5b0373e678223fb985ba42b2962b.png" alt="Instagram" />
+            </a>
+            <a href="https://www.linkedin.com/company/agri-marketplace/" target="_blank">
+              <img class="footer-image" src="/assets/icons/linkedin-86c3b329b493ce57e613118b55c8ddb281948e9953d386bb4e475ce04c7d24ab.png" alt="Linkedin" />
+            </a>
+            <a href="https://twitter.com/agrimarketplace" target="_blank">
+              <img class="footer-image" src="/assets/icons/twitter-decee6f4cc18e3928008dc9752990a79882421798c13b7a05add80724dcdde7b.png" alt="Twitter" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCXxytegg70uIUAQ0JtYLXhg" target="_blank">
+              <img class="footer-image" src="/assets/icons/youtube-d50ddd3463fca6474d8f6208acfe7fb9b6df4fd0115c7236be8ac898ff2950ec.png" alt="Youtube" />
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center">
+          <p><img class="footer-logo" src="/assets/logos/b-corp-6da44f5989f3afcefcc9940d9551caeecbe37492588053d6d5c439516f2bdc62.png" alt="B corp" /></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom clearfix">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 center">
+          <a target="_blank" href="https://www.eitfood.eu/startups"><img class="footer-eit-food" src="/assets/backgrounds/eit_food_logo-a5fd1c9cb559d0795bacc2c6144253a4aa1748081b5550f25248a5d8c94c9c24.png" alt="Eit food logo" /></a>
+        </div>
+        <div class="col-lg-4 col-md-6 center mt-4 mb-4">
+          <span class="text-secondary">&copy;2023, Agri Marketplace - All rights Reserved</span>
+        </div>
+        <div class="col-lg-4 col-md-12 center">
+          Co-financed by: &nbsp;
+          <a href="/project_files"><img class="footer-cofinanced-bar" src="/assets/backgrounds/barra_cofin_FEDER-7d31a01a485a9c69a10dad3ee8100b663160d3c7148e622e3e20d4e24a6a91f2.jpg" alt="Barra cofin feder" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div class="cookies-eu js-cookies-eu" >
+      <span class="cookies-eu-content-holder">Cookies help us deliver our services. By using our services, you agree to our use of cookies.</span>
+      <span class="cookies-eu-button-holder">
+      <button class="cookies-eu-ok js-cookies-eu-ok"> OK </button>
+        <a href="/cookies-policy" class="cookies-eu-link" target="_blank"> Learn more </a>
+      </span>
+    </div>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

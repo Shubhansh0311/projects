@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>E-commerceweb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTw>Fspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap icon cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">watchMania</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html"> </i>My Cart <i class="bi bi-cart-plus-fill"></i><span
+                                class="badge bg-success cart-badge f-sm">4</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/#product">Smartwatch</a></li>
+                            <li><a class="dropdown-item" href="/#product">Sports</a></li>
+                            <li><a class="dropdown-item" href="/#product">Digital</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex my-auto " role="search">
+                    <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn bg-secondary search-btn " data-bs-toggle="tooltip" data-bs-placement="left"
+                        title="type to search products " type="submit"><i class="bi bi-search text-light"></i></button>
+
+                </form>
+<div class="navbar-nav">
+    <li class="nav-item dropdown order-last ">
+        <a class="nav-link dropdown-toggle myaccount  text-secondary mx-lg-3  " href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            My Account
+        </a>
+        <ul class="dropdown-menu myaccount ">
+            <li><a class="dropdown-item " href="cart.html">My orders </a></li>
+            <li><a class="dropdown-item" data-bs-toggle="modal"  data-bs-target="#myModal"
+                    href="/#product">My profile <i class="bi  bi-person-circle " ></i></a></li>
+            <li><a class="dropdown-item" href="index.html">log out</a></li>
+        </ul>
+    </li>
+</div>            </div>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+
+
+
+    <!-- caraousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner ">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="carouselimg/img1.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="carouselimg/img2.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="carouselimg/img3.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="carouselimg/img4.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="carouselimg/img5.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="carouselimg/mg6.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="carouselimg/img7.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- end of carousel -->
+
+    <!-- home -->
+   <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                   
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch6.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to know more " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                            <a class="btn btn-dark w-100" role="button" onclick="showToast()"> <i
+                                    class="bi bi-cart-plus-fill"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                   
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch3.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to knowmore " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                            <a class="btn btn-dark w-100" onclick="showToast()" role="button"> <i
+                                    class="bi bi-cart-plus-fill"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                   
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch1.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to know more " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                            <a class="btn btn-dark w-100 " onclick="showToast()" role="button"> <i
+                                    class="bi bi-cart-plus-fill"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                   
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch4.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to know more " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                            <a class="btn btn-dark w-100 " onclick="showToast()" role="button"> <i
+                                    class="bi bi-cart-plus-fill"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                   
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch5.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to know more " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                            <a class="btn btn-dark w-100 " onclick="showToast()" role="button"> <i
+                                    class="bi bi-cart-plus-fill"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch7.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to know more " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                            <a class="btn btn-dark w-100 " onclick="shoToast()" role="button"> <i
+                                    class="bi bi-cart-plus-fill"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                   
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch2.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to know more " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                       
+                            <a class="btn btn-dark w-100 " onclick="showToast()" role="button"> <i
+                                    class="bi bi-cart-plus-fill"></i> Add To Cart </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     <div class="col-xl-3 col-md-4 col-sm-6 position-relative">
+                <div class="card-product ">
+                   
+                    <i class="bi  bi-heart-fill liked  position-absolute"></i>
+                    <i class="bi  bi-heart like position-absolute "></i>
+                    <img src="images/watch8.jpg" onclick="goToProductDetail()" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="click to know more " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-muted">Camera</h6>
+                        <h5 class="card-title">Samsung S-5</h5>
+                        <p class="card-text">$500 <span class="float-end"><i class="bi bi-star-fill  rating-stars"></i>
+
+                                <i class="bi bi-star-fill  rating-stars"></i>
+                                <i class="bi bi-star-fill  rating-stars"></i>
+
+
+                            </span></p>
+                        <!-- centering the button by using text-center -->
+                        <div class="text-center">
+                            <a class="btn btn-dark w-100 " onclick="showToast()" role="button"> <i
+                                    class="bi bi-cart-plus-fill"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+
+
+    <!-- footer -->
+
+    <div class="footer mt-auto bg-dark text-light footer-item">
+        <div class="container py-3">
+            <div class="row d-flex footer-direction">
+
+                <div class="col">
+                    <h5>Categories</h5>
+                    <ul>
+                        <li> <a href="#">Sports</a> </li>
+                        <li> <a href="#"> Analog </a> </li>
+                        <li> <a href="#"> Smartwatch </a> </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Useful Links</h5>
+                    <ul>
+                        <li> <a href="#"> Terms </a> </li>
+                        <li> <a href="#"> Privacy </a> </li>
+                        <li> <a href="#"> About us </a> </li>
+                        <li> <a href="#"> Misson </a> </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Get updates</h5>
+                    <div class="d-flex">
+                        <input type="text" class="form-control footer-input" />
+                        <button class="btn footer-btn">Subscibe</button>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">iam_shubhansh subjected to © 2023-2024</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- toast start -->
+    <div class="toast align-items-center bg-primary" data-bs-delay="3000">
+        <div class="d-flex">
+            <div class="toast-body show">
+                your item is successfully added to the cart
+            </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button>
+        </div>
+    </div>
+    <!-- toast-end -->
+
+
+
+    <!-- modal starting  -->
+
+    <!-- class fade to fade everything except modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Your Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    You need to login first,to check your account
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="login.html" type="button" class="btn btn-primary">login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- modal ending   -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
